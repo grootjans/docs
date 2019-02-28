@@ -59,13 +59,18 @@ The browser you use needs to have JavaScript turned on.
 * Apache
 
 ### 5.3 Database Server
+Mendix wants their customers to be able to run on the most recent, securely patched version of the supported databases. To this end, Mendix strives to add support for new vendor versions 2 minor versions after a vendor releases a new version to GA. Mendix follows the maintenance schedule of vendors and will drop support for database versions when they do. Both adding and dropping support will always be clearly announced in release notes.
 
+
+* PostgreSQL 9.5, 9.6, 10
+* [Microsoft SQL Server](/developerportal/deploy/mendix-on-windows-microsoft-sql-server) 2016, 2017
+* [Azure SQL](Azure SQL): v12<sup>1</sup>
+* [MySQL](mysql) 5.7, 8.0
+* [MariaDB](mysql) 5.5, 10.1, 10.2
+* [Oracle Database](oracle) 12c RC2, 18c
 * [IBM DB2](db2) 11.1
-* [MariaDB](mysql) 5.5, 10.0, 10.1
-* [Microsoft SQL Server](/developerportal/deploy/mendix-on-windows-microsoft-sql-server) 2008, 2008 R2, 2012, 2014, 2016, 2017
-* [MySQL](mysql) 5.5, 5.6, 5.7
-* [Oracle Database](oracle) 11g Release 2, 12c Release 1
-* PostgreSQL 9.2, 9.3, 9.4, 9.5, 9.6, 10
+
+<sup>1</sup> Support is not independently verified, but through compatible versions of SQL Server. 
 
 ### 5.4 Java
 
